@@ -1,0 +1,11 @@
+## Interface: 110100, 110007
+## Title: Kui |cff9966ffNameplates:|r |cffffffffArlaa|r
+## Author: Arlaa
+## OptionalDeps: Kui_Nameplates_Core
+## IconTexture: 132177
+
+kui.background-colour.lua
+kui.text-position.lua
+kui.purge-position.lua
+kui.omnicc-auras.lua
+kui.target-border.lua
