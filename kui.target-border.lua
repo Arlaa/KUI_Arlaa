@@ -10,7 +10,7 @@ end
 
 -- Function to create and update the border for the target frame
 local function UpdateTargetBorder(f)
-    if f.unit and UnitIsUnit("target", f.unit) then
+    if f.unit and UnitIsUnit("target", f.unit) and (f.state.reaction <= 4 or f.state.attackable) then
         -- Create border textures if they don't already exist
         if not f.targetBorder then
             f.targetBorder = {}

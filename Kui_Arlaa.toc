@@ -1,7 +1,8 @@
 ## Interface: 110100, 110007
 ## Title: Kui |cff9966ffNameplates:|r |cffffffffArlaa|r
 ## Author: Arlaa
-## OptionalDeps: Kui_Nameplates_Core
+## RequiredDeps: Kui_Nameplates_Core
+## Notes: A plugin for Kui Nameplates to add more customisation.
 ## IconTexture: 132177
 
 kui.background-colour.lua

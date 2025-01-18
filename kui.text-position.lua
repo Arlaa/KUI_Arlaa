@@ -17,13 +17,20 @@ end
 
 -- Function to reposition name and cast text
 local function UpdateTextPositions(f)
+    -- Only apply changes to hostile, neutral, or attackable units
+    if not f.state or (f.state.reaction and f.state.reaction > 4 and not f.state.attackable) then
+        return
+    end
+
     if f.NameText then
         local shortenedName = ShortenToLastName(f.state.name)
         f.NameText:SetText(shortenedName)
         f.NameText:ClearAllPoints()
         if f.IN_NAMEONLY then
+            f.NameText:SetJustifyH("LEFT")
             f.NameText:SetPoint("BOTTOMLEFT", f.HealthBar, "BOTTOMLEFT", 5, core.profile.name_vertical_offset)
         else
+            f.NameText:SetJustifyH("LEFT")
             f.NameText:SetPoint("BOTTOMLEFT", f.HealthBar, "BOTTOMLEFT", 5, core.profile.name_vertical_offset)
         end
     end
