@@ -1,9 +1,9 @@
 # Kui_Arlaa
-Collection of my custom mods for the [KuiNameplates](https://www.curseforge.com/wow/addons/kuinameplates) World of Warcraft addon. Some are sourced from [here](https://github.com/kesava-wow/kuinameplates-customs) while others are my own with the help of AI and friends. You can change some of the values in the .lua file if you want to customise (eg. change the background to something other than black).
+Collection of my custom mods for the [KuiNameplates](https://www.curseforge.com/wow/addons/kuinameplates) World of Warcraft addon. Some are sourced from [here](https://github.com/kesava-wow/kuinameplates-customs) while others are my own with the help of AI and friends. 
 
 ## Mods
 | Mod  | What It Does |
-| ------------- |:-------------:|
+| :------------ |:--------------|
 | kui.background-colour      | Changes the background colour of the castbar and healthbar to black.    |
 | kui.omnicc-auras.lua      | Enables omnicc compatibility with the cooldown text and swipe.    |
 | kui.purge-position.lua      | Repositions the purge auras to the right side of the nameplate.    |
@@ -11,9 +11,9 @@ Collection of my custom mods for the [KuiNameplates](https://www.curseforge.com/
 | kui.text-position.lua      | Repositions the unit and spell text to the left side. Ignores health text.   |
 
 ## How do I install/use it?
-1. Click the green code button at the top of this page > Download Zip
-2. Double click and rename folder to Kui_Arlaa
-3. Drag the Kui_Arlaa folder into your addons folder which can be found at World of Warcraft\_retail_\Interface\AddOns
+1. Navigate to the latest release page on the right hand side
+2. Download the zipped file. It may look like so: `Kui_Arlaa_11.7.zip`
+3. Drag the Kui_Arlaa folder into your addons folder which can be found at `World of Warcraft\_retail_\Interface\AddOns`
 4. Restart or reload your World of Warcraft client and enable it in the addons menu
 
 ## Example in action
