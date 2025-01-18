@@ -1,5 +1,5 @@
 # Kui_Arlaa
-Collection of my custom mods for the [KuiNameplates](https://www.curseforge.com/wow/addons/kuinameplates) World of Warcraft addon. Some are sourced from [here](https://github.com/kesava-wow/kuinameplates-customs) while others are my own completely with the help of AI and friends. You can change some of the values in the .lua file if you want to customise (eg. change the background to something other than black).
+Collection of my custom mods for the [KuiNameplates](https://www.curseforge.com/wow/addons/kuinameplates) World of Warcraft addon. Some are sourced from [here](https://github.com/kesava-wow/kuinameplates-customs) while others are my own with the help of AI and friends. You can change some of the values in the .lua file if you want to customise (eg. change the background to something other than black).
 
 ## Mods
 | Mod  | What It Does |
