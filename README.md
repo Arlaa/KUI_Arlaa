@@ -11,9 +11,9 @@ Collection of my custom mods for the [KuiNameplates](https://www.curseforge.com/
 | kui.text-position.lua      | Repositions the unit and spell text to the left side. Ignores health text.   |
 
 ## How do I install/use it?
-1. Right click the code green button > Download Zip
+1. Click the green code button at the top of this page > Download Zip
 2. Double click and rename folder to Kui_Arlaa
-3. Place the Kui_Arlaa folder into your addons folder which can be found at World of Warcraft\_retail_\Interface\AddOns
+3. Drag the Kui_Arlaa folder into your addons folder which can be found at World of Warcraft\_retail_\Interface\AddOns
 4. Restart or reload your World of Warcraft client and enable it in the addons menu
 
 ## Example in action
