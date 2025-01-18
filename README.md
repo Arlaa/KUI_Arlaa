@@ -10,6 +10,12 @@ Collection of my custom mods for the [KuiNameplates](https://www.curseforge.com/
 | kui.target-border.lua     | Adds a white border around the nameplate if it is your current rarget.    |
 | kui.text-position.lua      | Repositions the unit and spell text to the left side. Ignores health text.   |
 
+## How do I install/use it?
+1. Right click the code green button > Download Zip
+2. Rename folder to Kui_Arlaa
+3. Place the Kui_Arlaa folder into your addons folder which can be found at World of Warcraft\_retail_\Interface\AddOns
+4. Restart or reload your World of Warcraft client and enable it in the addons menu
+
 ## Example in action
 ![Arlaa UI](https://i.ibb.co/5kpkYsx/Wo-WScrn-Shot-011725-233945.jpg)
 
