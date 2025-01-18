@@ -7,7 +7,7 @@ Collection of my custom mods for the [KuiNameplates](https://www.curseforge.com/
 | kui.background-colour      | Changes the background colour of the castbar and healthbar to black.    |
 | kui.omnicc-auras.lua      | Enables omnicc compatibility with the cooldown text and swipe.    |
 | kui.purge-position.lua      | Repositions the purge auras to the right side of the nameplate.    |
-| kui.target-border.lua     | Adds a white border around the nameplate if it is your current rarget.    |
+| kui.target-border.lua     | Adds a white border around the nameplate if it is your current target.    |
 | kui.text-position.lua      | Repositions the unit and spell text to the left side. Ignores health text.   |
 
 ## How do I install/use it?
