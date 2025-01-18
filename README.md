@@ -12,7 +12,7 @@ Collection of my custom mods for the [KuiNameplates](https://www.curseforge.com/
 
 ## How do I install/use it?
 1. Right click the code green button > Download Zip
-2. Rename folder to Kui_Arlaa
+2. Double click and rename folder to Kui_Arlaa
 3. Place the Kui_Arlaa folder into your addons folder which can be found at World of Warcraft\_retail_\Interface\AddOns
 4. Restart or reload your World of Warcraft client and enable it in the addons menu
 
