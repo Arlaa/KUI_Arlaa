@@ -9,7 +9,7 @@ Collection of my custom mods for the [KuiNameplates](https://www.curseforge.com/
 | kui.purge-position.lua      | Repositions the purge auras to the right side of the nameplate.    |
 | kui.target-border.lua     | Adds a white border around the nameplate if it is your current target.    |
 | kui.text-position.lua      | Repositions the unit and spell text to the left side. Ignores health text.   |
-| kui.friendlynameplate-nonstack      | Disables stacking for friendly nameplates, so your enemy nameplates so still accordingly.   |
+| kui.friendlynameplate-nonstack      | Disables stacking for friendly nameplates. Enemy nameplates still stack accordingly.   |
 
 ## How do I install/use it?
 1. Navigate to the latest release page on the right hand side
