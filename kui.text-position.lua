@@ -17,8 +17,8 @@ end
 
 -- Function to reposition name and cast text
 local function UpdateTextPositions(f)
-    -- Only apply changes to hostile, neutral, or attackable units
-    if not f.state or (f.state.reaction and f.state.reaction > 4 and not f.state.attackable) then
+    -- Only apply changes to hostile or attackable units
+    if not f.state or (f.state.reaction and (f.state.reaction > 4 or f.state.reaction == 4) and not f.state.attackable) then
         return
     end
 

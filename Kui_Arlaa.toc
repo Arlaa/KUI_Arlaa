@@ -10,3 +10,4 @@ kui.text-position.lua
 kui.purge-position.lua
 kui.omnicc-auras.lua
 kui.target-border.lua
+kui.friendlynameplate-nonstack.lua
