@@ -4,6 +4,10 @@
 ## RequiredDeps: Kui_Nameplates_Core
 ## Notes: A plugin for Kui Nameplates to add more customisation.
 ## IconTexture: 132177
+## SavedVariables: KuiArlaaDB
+
+libs/LibRangeCheck-3.0/LibRangeCheck-3.0.lua
+libs/LibStub/LibStub.lua
 
 kui.background-colour.lua
 kui.text-position.lua
@@ -11,3 +15,4 @@ kui.purge-position.lua
 kui.omnicc-auras.lua
 kui.target-border.lua
 kui.friendlynameplate-nonstack.lua
+
