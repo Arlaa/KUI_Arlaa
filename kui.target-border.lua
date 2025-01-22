@@ -18,22 +18,22 @@ local function UpdateTargetBorder(f)
             -- Create top border
             f.targetBorder.top = f:CreateTexture(nil, "OVERLAY", nil, 7)
             f.targetBorder.top:SetTexture("Interface\\Buttons\\WHITE8x8")
-            f.targetBorder.top:SetHeight(1)
+            f.targetBorder.top:SetHeight(2)
 
             -- Create bottom border
             f.targetBorder.bottom = f:CreateTexture(nil, "OVERLAY", nil, 7)
             f.targetBorder.bottom:SetTexture("Interface\\Buttons\\WHITE8x8")
-            f.targetBorder.bottom:SetHeight(1)
+            f.targetBorder.bottom:SetHeight(2)
 
             -- Create left border
             f.targetBorder.left = f:CreateTexture(nil, "OVERLAY", nil, 7)
             f.targetBorder.left:SetTexture("Interface\\Buttons\\WHITE8x8")
-            f.targetBorder.left:SetWidth(1)
+            f.targetBorder.left:SetWidth(2)
 
             -- Create right border
             f.targetBorder.right = f:CreateTexture(nil, "OVERLAY", nil, 7)
             f.targetBorder.right:SetTexture("Interface\\Buttons\\WHITE8x8")
-            f.targetBorder.right:SetWidth(1)
+            f.targetBorder.right:SetWidth(2)
         end
 
         -- Determine if the castbar is visible and adjust border height
@@ -45,20 +45,20 @@ local function UpdateTargetBorder(f)
         local width, height = f.HealthBar:GetWidth(), f.HealthBar:GetHeight()
 
         -- Top border
-        f.targetBorder.top:SetPoint("BOTTOMLEFT", f.HealthBar, "TOPLEFT", -1, 0)
-        f.targetBorder.top:SetPoint("BOTTOMRIGHT", f.HealthBar, "TOPRIGHT", 1, 0)
+        f.targetBorder.top:SetPoint("BOTTOMLEFT", f.HealthBar, "TOPLEFT", -2, 0)
+        f.targetBorder.top:SetPoint("BOTTOMRIGHT", f.HealthBar, "TOPRIGHT", 2, 0)
 
         -- Bottom border
-        f.targetBorder.bottom:SetPoint("TOPLEFT", f.HealthBar, "BOTTOMLEFT", -1, -castBarHeight + bottomExtraPixel)
-        f.targetBorder.bottom:SetPoint("TOPRIGHT", f.HealthBar, "BOTTOMRIGHT", 1, -castBarHeight + bottomExtraPixel)
+        f.targetBorder.bottom:SetPoint("TOPLEFT", f.HealthBar, "BOTTOMLEFT", -2, -castBarHeight + bottomExtraPixel)
+        f.targetBorder.bottom:SetPoint("TOPRIGHT", f.HealthBar, "BOTTOMRIGHT", 2, -castBarHeight + bottomExtraPixel)
 
         -- Left border
-        f.targetBorder.left:SetPoint("TOPLEFT", f.HealthBar, "TOPLEFT", -1, 0)
-        f.targetBorder.left:SetPoint("BOTTOMLEFT", f.HealthBar, "BOTTOMLEFT", -1, -castBarHeight + bottomExtraPixel)
+        f.targetBorder.left:SetPoint("TOPLEFT", f.HealthBar, "TOPLEFT", -2, 0)
+        f.targetBorder.left:SetPoint("BOTTOMLEFT", f.HealthBar, "BOTTOMLEFT", -2, -castBarHeight + bottomExtraPixel)
 
         -- Right border
-        f.targetBorder.right:SetPoint("TOPRIGHT", f.HealthBar, "TOPRIGHT", 1, 0)
-        f.targetBorder.right:SetPoint("BOTTOMRIGHT", f.HealthBar, "BOTTOMRIGHT", 1, -castBarHeight + bottomExtraPixel)
+        f.targetBorder.right:SetPoint("TOPRIGHT", f.HealthBar, "TOPRIGHT", 2, 0)
+        f.targetBorder.right:SetPoint("BOTTOMRIGHT", f.HealthBar, "BOTTOMRIGHT", 2, -castBarHeight + bottomExtraPixel)
 
         -- Set color and show borders
         for _, border in pairs(f.targetBorder) do
