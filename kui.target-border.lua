@@ -10,7 +10,7 @@ end
 
 -- Create and update the target border
 local function UpdateTargetBorder(f)
-    if f.unit and UnitIsUnit("target", f.unit) then
+    if f.unit and UnitIsUnit("target", f.unit) and not UnitIsFriend("player", f.unit) then
         -- Create the border textures if they don't already exist
         if not f.targetBorder then
             f.targetBorder = {}
@@ -66,7 +66,7 @@ local function UpdateTargetBorder(f)
             border:Show()
         end
     elseif f.targetBorder then
-        -- Hide the border if the frame is not the target
+        -- Hide the border if the frame is not the target or is a friendly unit
         for _, border in pairs(f.targetBorder) do
             border:Hide()
         end
